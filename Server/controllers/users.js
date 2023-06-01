@@ -1,5 +1,5 @@
 import { format } from "morgan";
-import User from "../models/user";
+import User from "../models/user.js";
 
 export const getUser =async(req,res)=>{
     try{
