@@ -38,7 +38,7 @@ export const authSlice = createSlice({
                 return action.payload.post
                 return post
             })
-            state,posts = updatedPosts
+            state.posts = updatedPosts
         }
     }
 })

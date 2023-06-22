@@ -1,0 +1,5 @@
+{
+    "git.ignoreLimitWarning": true,
+    "CodeGPT.apiKey": "GPT4All",
+    "CodeGPT.model": "gpt-4"
+}

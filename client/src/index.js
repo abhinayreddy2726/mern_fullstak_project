@@ -13,13 +13,13 @@ import {
   PAUSE,
   PERSIST,
   PURGE,
-  REGISTER,
-  PERSIST
+  REGISTER
+  
 } from "redux-persist"
-import  Storage  from 'redux-persist/lib/storage';
+import  storage  from 'redux-persist/lib/storage';
 import { PersistGate } from 'redux-persist/integration/react';
 
-const persistConfig ={key:"root",Storage,version:1}
+const persistConfig ={key:"root",storage,version:1}
 const persistedReducer = persistReducer (persistConfig,authReducer)
 const store =configureStore({
   reducer: persistedReducer,
